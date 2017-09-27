@@ -1,0 +1,3 @@
+[submodule "themes/argsno-theme"]
+	path = themes/argsno-theme
+	url = git@github.com:argsno/argsno-theme.git
