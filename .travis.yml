@@ -11,6 +11,7 @@ cache:
   yarn: true
   directories:
     - node_modules
+    - $HOME/.npm
 
 before_install:
 - git config --global user.name "Andrew Wong"
@@ -21,9 +22,11 @@ before_install:
 
 install:
 - yarn
+
 script:
 - hexo clean
 - hexo generate
+
 after_success:
 - cd ./public
 - git init
