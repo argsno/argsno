@@ -78,3 +78,7 @@ theme: argsno-theme
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# Stat
+# umeng
+site_id: 1264544957
